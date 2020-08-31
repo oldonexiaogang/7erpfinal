@@ -1,0 +1,37 @@
+<?php
+return [
+    'labels' => [
+        'Delivery' => '成品发货管理',
+        'delivery' => '成品发货管理',
+    ],
+    'fields' => [
+        'plan_list_id' => '计划单',
+        'plan_list_no' => '计划单编号',
+        'delivery_no' => '发货单号',
+        'client_order_no' => '客户订单号',
+        'client_id' => '客户',
+        'client_name' => '客户名称',
+        'company_model_id' => '雷力型号',
+        'company_model' => '雷力型号',
+        'product_time' => '生产周期',
+        'client_model_id' => '客户型号',
+        'client_model' => '客户型号',
+        'craft_color_id' => '工艺颜色',
+        'craft_color_name' => '工艺颜色',
+        'inject_mold_ask' => '注塑要求',
+        'plan_remark' => '计划说明',
+        'status' => '发货状态',
+        'all_num' => '派工总数量',
+        'delivery_price_id' => '出库单价',
+        'delivery_price' => '出库单价',
+        'log_user_id' => '记录人员',
+        'log_user_name' => '记录人员',
+        'product_category_name' => '产品类型',
+        'spec_num' => '订单数量',
+        'process' => '计划进度',
+        'storage_out_status' => '中转出库',
+        'is_print' => '是否打印',
+    ],
+    'options' => [
+    ],
+];
